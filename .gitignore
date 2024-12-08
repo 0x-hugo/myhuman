@@ -16,6 +16,23 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.keystore
+release.keystore
+debug.keystore
+
+# Android/IntelliJ
+android/app/build/
+android/build/
+android/.gradle/
+android/.idea/
+.idea/
+*.iml
+local.properties
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
 
 # Metro
 .metro-health-check*
@@ -30,9 +47,24 @@ yarn-error.*
 *.pem
 
 # local env files
+.env*
 .env*.local
 
 # typescript
 *.tsbuildinfo
 
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
 app-example
+
+# Android Builds
+*.apk
+*.aab
+*.hprof
